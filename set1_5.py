@@ -3,6 +3,6 @@ try:
     for i in range(len(ip)):
         ip[i] = int(ip[i])
     ip.sort()
-    print ip[0]
+    print ip[-1]
 except:
     print 'Invalid Input'
