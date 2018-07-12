@@ -6,5 +6,8 @@ def check_leap(num):
     elif num%4 == 0:
         return 'yes'
     return 'no'
-n = int(raw_input())
-print check_leap(n)
+try:
+    n = int(raw_input())
+    print check_leap(n)
+except:
+    print 'Tnvalid Input'
