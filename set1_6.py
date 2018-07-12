@@ -2,7 +2,7 @@ def check_leap(num):
     if num % 400 == 0:
         return 'yes'
     elif num % 100 == 0:
-        return 'yes'
+        return 'no'
     elif num%4 == 0:
         return 'yes'
     return 'no'
